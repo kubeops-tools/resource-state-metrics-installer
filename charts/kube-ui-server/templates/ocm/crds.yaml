@@ -42,5 +42,6 @@ spec:
           defaultMode: 420
           secretName: {{ $.Values.kubeconfigSecretName }}
       restartPolicy: Never
+      terminationGracePeriodSeconds: 120
 {{- end }}
 {{- end }}

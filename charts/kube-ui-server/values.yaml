@@ -128,4 +128,4 @@ prometheus:
 helmRepositories:
   create: false
 
-kubeconfigSecretName: ""
+kubeconfigSecretName: multicluster-controlplane-svc-kubeconfig
